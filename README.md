@@ -1,4 +1,4 @@
-# JAVA IOTA Workshop
+# JAVA IOTA 1.0 Workshop
 Some simple examples to get you started on developing with IOTA using Java.
 
 ### Getting started
