@@ -21,7 +21,7 @@ public class e02_send_hello {
 
         List<Transfer> transfers = new ArrayList<>();
         transfers.add(new Transfer(RECIPIENT_ADDRESS, 0, TrytesConverter.asciiToTrytes("HELLO WORLD!"), "HELLOWORLD"));
-        iotaAPI.sendTransfer(SENDER_SEED, 2, 2, 14, transfers, null, null, false, false, null);
+        iotaAPI.sendTransfer(SENDER_SEED, 2, 2, 9, transfers, null, null, false, false, null);
 
         System.out.println("Transaction sent!\nhttps://devnet.thetangle.org/address/" + RECIPIENT_ADDRESS);
     }

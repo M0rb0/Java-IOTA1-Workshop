@@ -30,7 +30,7 @@ public class e06_send_tokens {
         inputList = new ArrayList<>(response.getInputs());
 
         transfers.add(new Transfer(RECIPIENT_ADDRESS, AMOUNT, TrytesConverter.asciiToTrytes("HERE IS YOUR " + AMOUNT + " IOTA!"), "JAVA9WORKSHOP"));
-        iotaAPI.sendTransfer(TEST_SEED, 2, 2, 14, transfers, inputList, null, true, false, null);
+        iotaAPI.sendTransfer(TEST_SEED, 2, 2, 9, transfers, inputList, null, true, false, null);
         System.out.println("Transaction sent!\nhttps://devnet.thetangle.org/address/" + RECIPIENT_ADDRESS);
     }
 }
